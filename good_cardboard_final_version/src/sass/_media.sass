@@ -1,0 +1,1036 @@
+@media (max-width: 576px)
+	.hidden-mobile
+		display: none
+	.header
+		background-color: #f4f4f4
+		padding-top: 0
+		&-logo
+			background: $active-color url(../img/adaptive/logo-header__mobile.png) center no-repeat
+			width: 35px
+			height: 35px
+			border-radius: 4px
+			margin: 10px 0 11px 0
+		&-contacts
+			&__phone
+				&s
+					flex-direction: column
+				font-size: 14px
+				font-weight: 400
+				color: $text-color-dark
+				border: none
+				font-family: 'Roboto Regular'
+				text-decoration: none
+				text-transform: uppercase
+				&:first-child
+					border: none
+					padding-right: 0
+					margin-right: 0
+				&__black
+					font-family: 'Roboto Black'
+					font-weight: 900
+				a:hover  
+				 font-size: inherit
+			&__button
+				display: inline-block
+				padding: 3px 7px 6px 7px
+				margin-left: 14px
+				img
+					width: 14px
+					height: 13px
+					margin-right: 0
+
+	.main
+		text-align: center
+		padding-top: 0px
+		&-text
+			&__title
+				font-size: 22px
+				color: $active-color
+				font-family: 'Roboto Bold'
+				font-weight: 700
+				line-height: 24px
+				padding-top: 45px
+				margin-top: 0px
+				margin-bottom: 7px
+			&__subtitle
+				font-family: 'Roboto Regular'
+				font-size: 18px
+				font-weight: 400
+				line-height: 24px
+				margin-bottom: 32px
+			&__form
+				background-color: transparent
+				padding: 0
+	.form
+		display: block
+		&-title
+			padding-right: 0
+			font-size: 15px
+			line-height: 18px
+			&__important
+				margin-bottom: 14px
+				margin-top: 8px
+		&__input
+			display: block
+			margin: auto
+			margin-bottom: 13px
+			width: 95%
+			text-align: center
+			font-size: 13px
+			padding-top: 16px
+			padding-bottom: 16px
+			height: 52px
+		&-small
+			font-size: 13px
+			margin-left: 0px
+
+	.button
+		&:hover
+	  	-webkit-transform: scale(1)
+	  	-ms-transform: scale(1)
+		transform: scale(1)
+		-webkit-transition: 0.2s
+		&_big
+			padding: 15px 25px !important
+
+	.overlay
+		.popup
+			width: 90%
+			&-close
+				font-size: 20px
+				right: -13px
+				top: -16px
+			&-title
+				font-size: 15px
+				line-height: 50px
+			&-form
+				padding: 25px 25px 20px 25px
+				&__header
+					font-size: 15px
+					line-height: 18px
+					padding: 0
+					span
+						font-size: 13px
+						display: block
+						padding-top: 4px
+				&__label
+					display: block
+					font-size: 15px
+					line-height: 30px
+					margin-top: 15px
+				&__input
+					width: 95%
+					margin-top: 15px
+					margin-left: 0px
+					font-size: 13px
+					padding-left: 0px
+					text-align: center
+					margin-bottom: 15px
+				&__btn
+					width: 180px
+					height: 56px
+					font-family: "Roboto Medium"
+					font-size: 14px
+					font-weight: 500
+					line-height: 22px
+					background-color: $active-color
+					margin-left: 4px
+					padding: 17px 25px 17px 25px
+				&__note
+					font-family: "Roboto Light"
+					font-size: 13px
+					font-weight: 300
+					line-height: 30px
+					margin-top: 10px
+					text-align: center
+
+	.numbers
+		margin-bottom: 23px
+		&-block
+			display: block
+			width: 90%
+			margin: 0px auto 13px auto
+			&__title
+				font-size: 30px
+				font-family: 'Roboto Black'
+				margin-bottom: 2px
+				sup
+					font-size: 16px
+			&__text
+				font-size: 14px
+				font-family: 'Roboto Regular'
+	.features
+		padding-top: 25px
+		padding-bottom: 40px
+		&-block
+			display: flex
+			align-items: center
+			flex-basis: 90%
+			margin-bottom: 8px
+			&-1
+				padding: 15px 10px
+			&-2
+				padding: 15px 10px
+			&__img
+				flex-basis: 45%
+				text-align: center
+				max-width: 55px
+			&__title
+				font-size: 15px
+				font-family: 'Roboto Black'
+				margin-bottom: 4px
+			&__descr
+				font-size: 14px
+				font-family: 'Roboto Light'
+			
+	.section
+		&-title
+			font-family: 'Roboto Bold'
+			font-size: 22px
+			margin-bottom: 10px
+			margin-top: 0px
+			&::after
+				display: none
+
+	.products
+		padding-top: 35px
+		padding-bottom: 35px
+		&-block
+			margin-bottom: 15px
+			&__img
+				width: 100%
+				&-1
+					min-height: 241px
+					max-width: 350px
+					margin: auto
+				&-2
+					min-height: 241px
+					max-width: 350px
+					margin: auto
+				&-3
+					min-height: 241px
+					max-width: 350px
+					margin: auto
+				&-4
+					min-height: 241px
+					max-width: 350px
+					margin: auto
+				&:hover 
+					-webkit-transform: scale(1)
+					-ms-transform: scale(1)
+					transform: scale(1)
+			&__title
+				margin-bottom: 17px
+				font-family: 'Roboto Medium'
+				font-size: 18px
+				span
+					height: 20px
+					display: inline-block
+			.button
+				margin-left: 3px
+				padding: 12px 17px 12px 17px
+
+	.production
+		padding-bottom: 25px
+		padding-top: 10px
+		&-row
+			display: flex
+			flex-direction: column-reverse
+		&-text
+			padding: 0px
+			&__title
+				font-family: 'Roboto Bold'
+				font-size: 20px
+				text-align: center
+				text-transform: uppercase
+				padding: 13px 0 15px 0
+				width: 100%
+				height: 53px
+				margin-top: 19px
+			&__descr
+				color: $text-color-dark
+				font-family: 'Roboto Light'
+				font-size: 14px
+				padding: 17px 15px 22px 15px
+				text-align: justify
+				margin: 0 auto
+				text-align-last: center
+		&-slider
+			padding-left: 15px
+			padding-right: 15px
+			img
+				object-fit: cover 
+				height: 380px
+			&__top
+				margin-bottom: 22px
+			&__bottom
+				display: none
+
+	.slider-arrow
+		width: 22px
+		height: 79px
+		top: 39.5%
+		&-prod
+			border: none
+			&_left
+				left: 0
+				background: $active-color url(../img/arrowprod/arrow-left_active.png) center no-repeat
+			&_right
+				background: $active-color url(../img/arrowprod/arrow-right_active.png) center no-repeat	
+				right: 0
+		&-fb
+			&_left
+				left: 0
+				background: $active-color url(../img/arrowprod/arrow-left_active.png) center no-repeat
+				&:hover
+					transform: scale(1)
+			&_right
+				background: $active-color url(../img/arrowprod/arrow-right_active.png) center no-repeat	
+				right: 0
+				&:hover
+					transform: scale(1)
+
+	.feedback
+		padding-top: 35px
+		padding-bottom: 40px
+
+
+	.offer
+		padding-top: 50px
+		padding-bottom: 50px
+		&-title
+			font-family: 'Roboto Bold'
+			font-size: 20px
+			line-height: 24px
+			&__important
+				margin-top: 10px
+				font-size: 16px
+				font-family: 'Roboto Regular'
+	 &-form
+	 	&__input
+	 		max-width: 352px
+			&__label
+				font-size: 14px
+				margin-bottom: 22px
+		&-small
+			margin-top: 10px
+		&-button
+			height: 52px
+
+	.contacts
+		display: flex
+		flex-direction: column-reverse
+		margin-top: 36px
+		margin-bottom: 0px
+		&-block
+			margin-bottom: 28px
+			position: relative
+			background-color: #ffffff
+			padding: 0
+			left: inherit
+			top: inherit
+			text-align: center
+			&__tohide
+				display: block
+			&__title
+				font-size: 18px
+				&-2
+					margin-top: 10px
+			&__icon
+				display: none
+			&__address-2
+				display: inline-block
+				color: #373737
+				font-family: 'Roboto Light'
+				font-size: 14px
+			&__phone
+				color: #373737
+				font-family: 'Roboto Light'
+				font-size: 14px
+				margin-top: 20px
+			&__mail-1
+				font-size: 14px
+				margin-top: 14px
+	.button-cta
+		margin-left: 0
+
+	.footer
+		&-text
+			font-size: 11px
+
+	.message 
+  top: 100px
+  width: 85%
+  font-size: 17px
+  padding-top: 10px
+  border: 2px solid $bg-color-light
+
+	.contacts
+		&-map
+			width: 90%
+			height: 420px
+			margin: 0 auto 150px auto
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) 
+	.hidden-mobile
+		display: none 
+	.header
+		// background-color: #f4f4f4
+		padding-top: 0
+		&-logo
+			background: url(../img/logo-header.png) center no-repeat
+			background-size: contain
+			width: 125%
+			border-radius: 4px
+			margin: 10px 0 11px 0
+		&-contacts
+			&__phone
+				&s
+					flex-direction: column
+				font-size: 16px
+				font-weight: 400
+				color: $text-color-dark
+				border: none
+				font-family: 'Roboto Regular'
+				text-decoration: none
+				text-transform: uppercase
+				&:first-child
+					border: none
+					padding-right: 0
+					margin-right: 0
+				&__black
+					font-family: 'Roboto Black'
+					font-weight: 900
+				a:hover  
+				 font-size: inherit
+			&__button
+				display: inline-block
+				padding: 7px 10px 10px 9px
+				margin-left: 25px
+				img
+					width: 18px
+					height: 16px
+					margin-right: 0
+
+	.main
+		text-align: center
+		padding-top: 0px
+		&-text
+			&__title
+				font-size: 32px
+				color: $active-color
+				font-family: 'Roboto Bold'
+				font-weight: 700
+				line-height: 32px
+				padding-top: 45px
+				margin-top: 0px
+				margin-bottom: 12px
+			&__subtitle
+				font-family: 'Roboto Regular'
+				font-size: 24px
+				font-weight: 400
+				line-height: 24px
+				margin-bottom: 35px
+			&__form
+				background-color: transparent
+				padding: 0
+	.form
+		display: block
+		&-title
+			padding-right: 0
+			font-size: 17px
+			line-height: 20px
+			&__important
+				margin-bottom: 20px
+				margin-top: 10px
+		&__input
+			display: block
+			margin: auto
+			margin-bottom: 15px
+			width: 80%
+			text-align: center
+			font-size: 15px
+			padding-top: 16px
+			padding-bottom: 16px
+		&-small
+			font-size: 15px
+			margin-left: 0px
+
+	.button
+		&:hover
+	  	-webkit-transform: scale(1)
+	  	-ms-transform: scale(1)
+		transform: scale(1)
+		-webkit-transition: 0.2s
+		&_big
+			padding: 15px 40px
+			margin-bottom: 10px
+
+	.overlay
+		.popup
+			width: 90%
+			&-close
+				font-size: 28px
+				right: -15px
+				top: -23px
+			&-title
+				font-size: 20px
+				line-height: 50px
+			&-form
+				padding: 45px 35px 45px 35px
+				&__header
+					font-size: 20px
+					line-height: 20px
+					padding: 0
+					span
+						font-size: 18px
+						display: block
+						padding-top: 4px
+				&__label
+					display: block
+					font-size: 20px
+					line-height: 30px
+					margin-top: 15px
+				&__input
+					width: 95%
+					margin-top: 15px
+					margin-left: 0px
+					font-size: 15px
+					padding-left: 0px
+					text-align: center
+					margin-bottom: 15px
+				&__btn
+					width: 190px
+					height: 56px
+					font-family: "Roboto Medium"
+					font-size: 15px
+					font-weight: 500
+					line-height: 22px
+					background-color: $active-color
+					margin-left: 4px
+					// width: 40%
+					padding: 17px 25px 17px 25px
+				&__note
+					font-family: "Roboto Light"
+					font-size: 15px
+					font-weight: 300
+					line-height: 30px
+					margin-top: 10px
+					text-align: center
+
+ .numbers
+ 	margin-bottom: 35px
+ 	&-block
+ 		display: block
+ 		width: 90%
+ 		margin: 0px auto 30px auto
+ 		&__title
+ 			font-size: 32px
+ 			font-family: 'Roboto Black'
+ 			margin-bottom: 0px
+ 			sup
+ 				font-size: 15px
+ 		&__text
+ 			font-size: 15px
+ 			font-family: 'Roboto Regular'
+ .features
+	 	padding-top: 30px
+	 	padding-bottom: 35px
+	 	&-block
+	 		display: flex
+	 		align-items: center
+	 		flex-basis: 99%
+	 		margin-bottom: 15px
+	 		&-1
+	 			padding: 15px 10px
+	 		&-2
+	 			padding: 15px 10px
+	 		&__img
+	 			flex-basis: 40%
+	 			text-align: center
+	 			max-width: 112px
+	 		&__title
+	 			font-size: 17px
+	 			font-family: 'Roboto Black'
+	 			margin-bottom: 4px
+	 		&__descr
+	 			font-size: 15px
+	 			font-family: 'Roboto Light'
+
+
+	.section
+		&-title
+			font-family: 'Roboto Bold'
+			font-size: 24px
+			margin-bottom: 10px
+			margin-top: 0px
+			&::after
+				display: none
+
+	.products
+		padding-top: 32px
+		padding-bottom: 35px
+		&-block
+			margin-bottom: 20px
+			&__img
+				width: 100%
+				&-1
+					margin: auto
+					margin-bottom: 10px
+				&-2
+					margin: auto
+					margin-bottom: 10px
+				&-3
+					margin: auto
+					margin-bottom: 10px
+				&-4
+					margin: auto
+					margin-bottom: 10px
+				&:hover 
+					-webkit-transform: scale(1)
+					-ms-transform: scale(1)
+					transform: scale(1)
+			&__title
+				margin-bottom: 20px
+				font-family: 'Roboto Medium'
+				font-size: 18px
+			.button
+				margin-left: 15px
+
+ .production
+ 	padding:
+ 		bottom: 30px
+ 		top: 30px
+ 	&-row
+ 		display: flex
+ 		flex-direction: column-reverse
+ 	&-text
+ 		padding: 0px
+ 		&__title
+ 			font-family: 'Roboto Bold'
+ 			font-size: 22px
+ 			text-align: center
+ 			text-transform: uppercase
+ 			padding: 13px 0 15px 0
+ 			width: 100%
+ 			height: 53px
+ 			margin-top: 19px
+ 		&__descr
+ 			color: $text-color-dark
+ 			font-family: 'Roboto Regular'
+ 			font-size: 14px
+ 			padding: 17px 15px 22px 15px
+ 			text-align: justify
+ 			margin: 0 auto
+ 			text-align-last: center
+ 	&-slider
+ 		padding-left: 15px
+ 		padding-right: 15px
+ 		img
+ 			object-fit: cover 
+ 			height: 380px
+ 		&__top
+ 			margin-bottom: 22px
+ 		&__bottom
+ 			display: none
+
+ .slider-arrow
+ 	width: 22px
+ 	height: 120px
+ 	top: 34%
+ 	border: none
+ 	outline: none
+ 	&-prod
+ 		&_left
+ 			left: 0
+ 			background: $active-color url(../img/arrowprod/arrow-left_active.png) center no-repeat
+ 		&_right
+ 			background: $active-color url(../img/arrowprod/arrow-right_active.png) center no-repeat	
+ 			right: 0
+ 	&-fb
+ 		&_left
+ 			&:hover
+ 				transform: scale(1)
+ 		&_right
+ 			&:hover
+ 				transform: scale(1)
+
+ .offer
+ 	padding-top: 50px
+ 	padding-bottom: 50px
+ 	&-title
+ 		font-family: 'Roboto Bold'
+ 		font-size: 22px
+ 		&__important
+ 			margin-top: 0px
+ 			font-size: 18px
+  &-form
+  	&__input
+  		max-width: 352px
+  		font-size: 14px
+ 		&__label
+ 			font-size: 15px
+ 			margin-bottom: 22px
+ 	&-small
+ 		margin-top: 0
+
+	.feedback
+		padding-top: 35px
+		padding-bottom: 35px
+
+	.contacts
+		&-block
+			left: 10%
+
+
+
+@media (min-width: 768px) and (max-width: 991px)
+	.hidden-mobile
+		display: none 
+	.header
+		// background-color: #f4f4f4
+		padding-top: 0
+		&-logo
+			background: url(../img/logo-header.png) center no-repeat
+			background-size: contain
+			width: 80%
+			border-radius: 4px
+			margin: 10px 0 10px 0
+		&-contacts
+			&__phone
+				&s
+					flex-direction: column
+				font-size: 18px
+				font-weight: 400
+				color: $text-color-dark
+				border: none
+				font-family: 'Roboto Regular'
+				text-decoration: none
+				text-transform: uppercase
+				&:first-child
+					padding-right: 10px
+					margin-right: 10px
+					border: none
+				&__black
+					font-family: 'Roboto Black'
+					font-weight: 900
+				a:hover  
+				 font-size: inherit
+			&__button
+				display: inline-block
+				padding: 10px 14px 13px 13px
+				margin-left: 25px
+				img
+					width: 15px
+					height: 15px
+					margin-right: 0px
+	.btn-text
+		display: inline-block
+
+
+	.main
+		text-align: center
+		padding-top: 0px
+		&-text
+			&__title
+				font-size: 28px
+				color: #ffffff
+				font-family: 'Roboto Bold'
+				font-weight: 700
+				line-height: 32px
+				padding-top: 45px
+				margin-top: 0px
+				margin-bottom: 10px
+			&__subtitle
+				font-family: 'Roboto Regular'
+				font-size: 22px
+				font-weight: 400
+				line-height: 24px
+				margin-bottom: 30px
+			&__form
+				// background-color: transparent
+				padding: 15px 10px
+	.form
+		display: block
+		&-title
+			padding-right: 0
+			font-size: 17px
+			line-height: 20px
+			&__important
+				margin-bottom: 15px
+				margin-top: 10px
+		&__input
+			display: block
+			margin: auto
+			margin-bottom: 15px
+			width: 80%
+			text-align: center
+			font-size: 14px
+			padding-top: 16px
+			padding-bottom: 16px
+		&-small
+			font-size: 14px
+			margin-left: 0px
+
+	.button
+		&:hover
+	  	-webkit-transform: scale(1)
+	  	-ms-transform: scale(1)
+		transform: scale(1)
+		-webkit-transition: 0.2s
+		&_big
+			padding: 15px 40px
+			margin-bottom: 5px
+			font-size: 14px
+
+	.overlay
+		.popup
+			width: 735px
+			&-close
+				font-size: 30px
+				right: -15px
+				top: -25px
+			&-title
+				font-size: 19px
+				line-height: 71px
+			&-form
+				&__header
+					font-size: 28px
+					line-height: 25px
+					padding-top: 25px
+					span
+						font-size: 22px 
+						display: block
+				&__label
+					font-size: 18px
+				&__input
+					width: 355px
+				&__btn
+					font-size: 15px
+					line-height: 25px
+					padding: 16px 35px 15px 35px
+				&__note
+					font-family: "Roboto Light"
+					font-size: 14px
+					font-weight: 300
+					line-height: 30px
+					margin-top: 5px
+					text-align: center
+
+	.numbers
+ 	margin-bottom: 40px
+ 	&-block
+ 		display: block
+ 		width: 90%
+ 		margin: 0px auto 30px auto
+ 		&__title
+ 			font-size: 35px
+ 			font-family: 'Roboto Black'
+ 			margin-bottom: 0px
+ 			sup
+ 				font-size: 16px
+ 		&__text
+ 			font-size: 17px
+ 			font-family: 'Roboto Regular'
+ .features
+	 	padding-top: 35px
+	 	padding-bottom: 35px
+	 	&-block
+	 		display: flex
+	 		align-items: center
+	 		flex-basis: 45%
+	 		margin-bottom: 25px
+	 		&__text
+	 			align-self: flex-start
+	 			display: flex
+	 			flex-wrap: wrap
+	 		&-1
+	 			padding: 15px 10px
+	 		&-2
+	 			padding: 15px 10px
+	 		&__img
+	 			flex-basis: 40%
+	 			text-align: center
+	 			max-width: 112px
+	 		&__title
+	 			font-size: 17px
+	 			font-family: 'Roboto Bold'
+	 			margin-bottom: 4px
+	 		&__descr
+	 			font-size: 15px
+	 			font-family: 'Roboto Light'
+
+	.section
+		&-title
+			font-family: 'Roboto Bold'
+			font-size: 26px
+			margin-bottom: 10px
+			margin-top: 0px
+
+	.products
+		padding-top: 40px
+		padding-bottom: 40px
+		&-block
+			margin-bottom: 20px
+			&__img
+				width: 100%
+				&-1
+					margin: auto
+					margin-bottom: 10px
+				&-2
+					margin: auto
+					margin-bottom: 10px
+				&-3
+					margin: auto
+					margin-bottom: 10px
+				&-4
+					margin: auto
+					margin-bottom: 10px
+				&:hover 
+					-webkit-transform: scale(1)
+					-ms-transform: scale(1)
+					transform: scale(1)
+			&__title
+				margin-bottom: 20px
+				font-family: 'Roboto Medium'
+				font-size: 20px
+			.button
+				margin-left: 15px
+	
+	.production
+		padding:
+			bottom: 40px
+			top: 40px
+		&-row
+			display: flex
+			flex-direction: column-reverse
+		&-text
+			padding: 0px
+			&__title
+				font-family: 'Roboto Bold'
+				font-size: 24px
+				text-align: center
+				text-transform: uppercase
+				padding: 13px 0 15px 0
+				width: 100%
+				height: 53px
+				margin-top: 19px
+			&__descr
+				font-family: 'Roboto Regular'
+				font-size: 15px
+				padding: 17px 15px 22px 15px
+				text-align: justify
+				margin: 0 auto
+				text-align-last: center
+		&-slider
+			padding-left: 15px
+			padding-right: 15px
+			&__top
+				margin-bottom: 22px
+			&__bottom
+				display: none
+
+	.slider-arrow
+		width: 22px
+		height: 120px
+		top: 34%
+		border: none
+		outline: none
+		&-prod
+			&_left
+				left: 0
+				background: $active-color url(../img/arrowprod/arrow-left_active.png) center no-repeat
+			&_right
+				background: $active-color url(../img/arrowprod/arrow-right_active.png) center no-repeat	
+				right: 0
+		&-fb
+			&_left
+				&:hover
+					transform: scale(1)
+			&_right
+				&:hover
+					transform: scale(1)
+ .feedback
+ 	padding-top: 40px
+ 	padding-bottom: 35px
+	.offer
+ 	padding-top: 50px
+ 	padding-bottom: 50px
+ 	&-title
+ 		font-family: 'Roboto Bold'
+ 		font-size: 28px
+ 		&__important
+ 			margin-top: 5px
+ 			font-size: 24px
+  &-form
+  	&__input
+  		max-width: 352px
+  		font-size: 15px
+ 		&__label
+ 			font-size: 18px
+ 			margin-bottom: 22px
+ 	&-small
+ 		margin-top: 5px
+
+@media (min-width: 992px) and (max-width: 1200px)
+
+	.main
+		/* Оформление главной картинки*/
+		&-img 
+			position: relative
+			margin-top: 40px
+			img
+				transform: translateX(-10px)
+				max-width: 103%
+			&::before
+				content: ''
+				position: absolute
+				z-index: -1
+				width: 310px
+				height: 310px
+				left: 50%
+				margin-left: -120px
+				border: 1px solid #ffffff
+				border-radius: 50%
+			&::after
+				content: url(../img/main-test-roskom.png)
+				position: absolute
+				z-index: 2
+				width: 60px
+				height: 50px
+				margin-top: -43px
+				transform: translateX(60px)
+ .form
+ 	&__input
+ 		flex-basis: 61%;
+
+	.features
+	 	padding-top: 35px
+	 	padding-bottom: 25px
+	 	&-block
+	 		&__text
+	 			align-self: flex-start
+	 			display: flex
+	 			flex-wrap: wrap
+
+
+@media (min-width: 1200px)
+	.container
+		max-width: 968px
+		margin: auto
+		padding: 0
+
+	.features
+	 	&-block
+	 		&__text
+	 			align-self: flex-start
+	 			display: flex
+	 			flex-wrap: wrap
+
+
+

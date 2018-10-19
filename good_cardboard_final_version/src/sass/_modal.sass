@@ -1,0 +1,101 @@
+.overlay
+	position: fixed
+	display: none
+	top: 0
+	width: 100%
+	height: 100%
+	z-index: 3
+	background-color: rgba(0,0,0,.4)
+	&-2
+		position: fixed
+		display: none
+		top: 0
+		width: 100%
+		height: 100%
+		z-index: 3
+		background-color: rgba(0,0,0,.4)
+		
+	.popup
+		position: fixed
+		left: 50%
+		width: 752px
+		top: 100px
+		transform: translateX(-50%)
+		&-close
+			position: absolute
+			font-size: 35px
+			color: #fff
+			right: -20px
+			top: -30px
+			font-style: "Roboto Light"
+			font-weight: 300
+			cursor: pointer
+		&-title
+			display: block
+			width: 100%
+			margin: 0
+			background-color: $active-color
+			max-height: 71px
+			color: #fff
+			text-transform: uppercase
+			font-size: 21px
+			text-align: center
+			line-height: 71px
+			font-family: "Roboto Medium"
+		&-form
+			background: url(../img/modal/rectangle-1-copy-3.png) center no-repeat
+			background-size: cover
+			padding: 35px 88px 50px 88px
+			color: #fff
+			&__header
+				font-family: "Roboto Regular"
+				font-size: 30px
+				font-weight: 400
+				line-height: 27px
+				padding: 0
+				text-align: center
+				span
+					font-size: 24px
+			&__label
+				display: block
+				color: #ffffff
+				font-family: "Roboto Light"
+				font-size: 20px
+				font-weight: 300
+				line-height: 30px
+				margin-top: 15px
+				margin-left: 10px
+				letter-spacing: 0.1px
+			&__input
+				width: 365px
+				height: 56px
+				margin-top: 12px
+				margin-left: -17px
+				color: ($text-color-dark)
+				font-family: "Roboto Light"
+				font-size: 14px
+				font-weight: 300
+				line-height: 42px
+				padding-top: 21px 
+				padding-bottom: 21px
+				padding-left: 18px
+				border: none
+				border-radius: 4px
+				cursor: pointer
+			&__btn
+				// width: 180px
+				height: 56px
+				font-family: "Roboto Medium"
+				font-size: 15px
+				font-weight: 500
+				line-height: 22px
+				background-color: $active-color
+				margin-left: 4px
+				padding: 16px 19px 16px 19px
+			&__note
+				font-family: "Roboto Light"
+				font-size: 14px
+				font-weight: 300
+				line-height: 30px
+				margin-top: 0
+				text-align: center

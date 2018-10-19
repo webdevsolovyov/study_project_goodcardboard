@@ -1,0 +1,109 @@
+.main
+	position: relative
+	padding-top: 40px
+	padding-bottom: 60px
+	color: $text-color-light
+	z-index: 1
+	background: $text-color-dark url(../img/main-bg.jpg) center no-repeat
+	background-size: cover
+	/* Затемнение фонового изображения на главном экране*/
+
+	/* Оформление главной картинки*/
+	&-img 
+		// position: relative
+		img
+			transform: translateX(-95px)
+			max-width: max-content
+
+		&::before
+			content: ''
+			position: absolute
+			z-index: -1
+			width: 395px
+			height: 395px
+			left: 50%
+			margin-left: -195px
+			border: 1px solid #ffffff
+			border-radius: 50%
+		&::after
+			content: url(../img/main-test-roskom.png)
+			position: absolute
+			z-index: 2
+			width: 60px
+			height: 50px
+			margin-top: -45px
+
+ /* заголовок */
+ &-text
+ 	&__title
+ 		margin-bottom: 7px
+ 		font-size: 41px
+ 		font-weight: 700
+ 		font-family: 'Roboto Bold'
+ 		line-height: 42px
+ 		margin-top: 25px
+ 	&__subtitle
+ 		font-size: 28px
+ 		font-weight: 400
+ 		font-family: 'Roboto Regular'
+ 		margin-bottom: 18px
+ 	&__form
+ 		padding: 23px 18px 23px 27px 
+ 		background-color: rgba(255, 255, 255, 0.25)
+ 		border-radius: 2px
+.form
+	z-index: 2
+	display: flex
+	justify-content: space-between
+	align-items: center
+	&-title
+		color: #ffffff
+		font-family: "Roboto Light"
+		font-weight: 300
+		font-size: 20px
+		padding-right: 70px
+		line-height: 30px
+		margin-bottom: 20px
+		&__important
+			font-family: "Roboto Bold"
+			font-weight: 700
+			text-transform: uppercase
+			display: block
+			margin-bottom: -15px
+	&__input
+		border: none
+		border-radius: 4px
+		padding: 20px
+		opacity: 0.95
+		color: $text-color-dark
+		font-family: "Roboto Light"
+		font-size: 14px
+		font-weight: 300
+		flex-basis: 63%
+		background-color: #ffffff
+		cursor: pointer
+		height: 56px
+	&-small
+		font-family: "Roboto Light"
+		font-size: 14px
+		font-weight: 300
+		display: block
+		margin-top: 12px
+		margin-left: 18px
+.button
+	&_big
+		padding: 16px 19px 18px 19px
+		vertical-align: middle
+		color: #ffffff
+		font-family: 'Roboto Medium'
+		font-size: 15px
+		font-weight: 500
+		margin-left: 0	
+
+
+
+
+
+
+
+
